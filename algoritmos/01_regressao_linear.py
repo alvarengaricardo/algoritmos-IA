@@ -28,7 +28,7 @@ plt.scatter(x, y, color='blue', label='Dados Observados')
 plt.plot(x, y_pred, color='red', linewidth=2, label='Regressão Linear')
 plt.xlabel('Variável Independente (x)')
 plt.ylabel('Variável Dependente (y)')
-plt.title('Regressão Linear Simples com 20 Posições')
+plt.title('Regressão Linear Simples')
 plt.legend()
 plt.show()
 
