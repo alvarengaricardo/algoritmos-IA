@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 # Criando dados de exemplo
 np.random.seed(42)
-X = np.random.rand(100, 1)
-y = (X.squeeze() + 0.2 * np.random.randn(100)) > 0.5
+X = np.random.rand(200, 1)
+y = (X.squeeze() + 0.2 * np.random.randn(200)) > 0.5
 
 # Criando o modelo de regressão logística
 model = LogisticRegression()
